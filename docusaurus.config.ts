@@ -79,6 +79,12 @@ const config: Config = {
           position: "left",
           label: "Tutorial",
         },
+        {
+          type: "docSidebar",
+          sidebarId: "tjeuSidebar",
+          position: "left",
+          label: "Tjeu",
+        },
         { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/facebook/docusaurus",
@@ -95,7 +101,11 @@ const config: Config = {
           items: [
             {
               label: "Tutorial",
-              to: "/docs/intro",
+              to: "/docs/tutorial/intro",
+            },
+            {
+              label: "Tjeu",
+              to: "/docs/tjeu",
             },
           ],
         },
